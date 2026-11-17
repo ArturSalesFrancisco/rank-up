@@ -1,0 +1,64 @@
+.review-card {
+    background-color: #F2EBE1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-bottom: 12px solid black;
+    border-right: 12px solid black;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEB91A;
+    padding: 8px;
+    text-align: center;
+    border: 3px solid black;
+    border-bottom: 5px solid black;
+}
+
+.infos-iniciais {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px
+}
+
+.img-card {
+    margin: 10px 0px;
+    width: 100%;
+    max-height: 500px;
+    border-radius: 5px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.faixa {
+    background-color: #45454D;
+    height: 1px;
+    width: 250px;
+    margin: 20px 0;
+}
+
+.categoria {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.nota {
+    background-color: #1C372C;
+    color: #04B74C;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.desc {
+    color: #464647;
+    text-align: start;
+}
